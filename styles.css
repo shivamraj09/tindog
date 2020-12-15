@@ -1,0 +1,160 @@
+#title {
+  background-color: #ff4c68;
+  color: rgb(255, 255, 255);
+  padding: 1.7% 15%;
+}
+
+.container-fluid{
+  padding: 3% 15% 10%;
+}
+
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 5rem;
+  line-height: 1.5;
+}
+
+body {
+  font-family: "montserrat";
+}
+/* navigation bar */
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 0;
+}
+.nav-item {
+  padding: 0 18px 0 0;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "montserrat-light";
+}
+/* button */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+.image-title {
+  width: 50%;
+  transform: rotate(25deg);
+  margin-left: 60px;
+  right: 29%;
+  position: absolute;
+}
+
+/* features */
+
+#features {
+  background-color: white;
+  padding: 7% 15%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  
+}
+#features h3 {
+  padding-top: 5rem;
+  padding: 0 1.3rem;
+  font-family: "Montserrat";
+}
+#features p {
+  color: #8f8f8f;
+  line-height: 2;
+}
+.icon {
+  color: #ef8172;
+  line-height: 1.5;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+#testimonials{
+  background-color:#ef8172 ;
+ color: #fff;
+ text-align: center;
+}
+.testiminial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#testimonials h2{
+  font-family: "montesarret";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* press */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+   margin: 20px 20px 20px 15pxpx;
+   width: 15%;
+   padding: 20px 20px 15px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* pricing */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+/* cta */
+
+
+#cta {background-color: #ff4c68;
+text-align: center;
+padding: 100px 50px 100px;
+padding: 7% 15%;
+}
+
+.ctaa {
+  padding-bottom: 50px;
+  color: white;
+  font-size: 4rem;
+  font-family: "Montserrat"
+  
+}
+.btn {
+  margin: 10px 10px;
+}
+
+
+/* footer */
+
+#footer {
+  text-align: center;
+  padding: 2rem 2rem;
+}
+.sm {
+  margin: 1rem 1rem;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .image-title {
+    padding-top: 1rem;
+    position: static;
+    transform: rotate(0);
+    margin-left: auto;
+  }
+
+  .ctaa {
+    font-size: 3rem;
+  }
+}
